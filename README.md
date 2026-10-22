@@ -19,3 +19,7 @@ Cyber / terminal-inspired personal portfolio for **Mehedi Hasan**.
 
 ## Deployment
 GitHub Pages publishes from the `main` branch at https://mehedi-hasan77.github.io/Mehedi-hasan77/
+
+## ORM Case Desk
+
+Privacy-first copyright and platform reporting draft tool: [open the app](https://mehedi-hasan77.github.io/Mehedi-hasan77/orm-tools/). Source and tests are under [`orm-tools/`](./orm-tools/).

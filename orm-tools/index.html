@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'; upgrade-insecure-requests">
+  <meta name="theme-color" content="#102025">
+  <meta name="description" content="ORM Case Desk: organize authorized copyright and platform reporting requests, validate URLs, and generate evidence-ready drafts privately in your browser.">
+  <meta name="robots" content="index,follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ORM Case Desk | Mehedi Hasan">
+  <meta property="og:description" content="A privacy-first casework tool for preparing authorized DMCA, Business Profile and social content reports.">
+  <meta property="og:url" content="https://mehedi-hasan77.github.io/Mehedi-hasan77/orm-tools/">
+  <meta property="og:image" content="https://mehedi-hasan77.github.io/Mehedi-hasan77/assets/mehedi-hasan-profile.webp">
+  <link rel="canonical" href="https://mehedi-hasan77.github.io/Mehedi-hasan77/orm-tools/">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <title>ORM Case Desk | Mehedi Hasan</title>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to main content</a>
+  <div class="shell">
+    <aside class="sidebar" aria-label="Primary navigation">
+      <a class="brand" href="./" aria-label="ORM Case Desk home"><span class="brand-symbol">◈</span><span>case<span class="brand-accent">desk</span><small>REPUTATION OPERATIONS</small></span></a>
+      <span class="side-label">WORKSPACE</span>
+      <nav class="side-menu">
+        <a class="active" href="#dashboard" aria-current="page"><span aria-hidden="true">▦</span> Overview</a>
+        <a href="#new-case"><span aria-hidden="true">✎</span> New request</a>
+        <a href="#case-log"><span aria-hidden="true">▤</span> Case queue</a>
+        <a href="#resources"><span aria-hidden="true">↗</span> Official channels</a>
+      </nav>
+      <div class="side-bottom">
+        <span class="privacy-indicator"><span class="privacy-dot"></span> Local browser session</span>
+        <p>No account, API key, or server upload. Closing this page clears your cases.</p>
+        <a href="../">← Back to portfolio</a>
+      </div>
+    </aside>
+    <div class="workspace">
+      <header class="topbar"><div class="breadcrumbs">Workspace <span>/</span> <strong>ORM Case Desk</strong></div><div class="top-right"><span class="status-pill"><span class="privacy-dot"></span> Private by default</span><a class="home-link" href="../">Mehedi Hasan ↗</a></div></header>
+      <main id="main">
+        <section id="dashboard" class="intro">
+          <div class="eyebrow"><span class="pulse"></span> CASEWORK CONTROL CENTER <span class="eyebrow-line"></span> V1.0</div>
+          <div class="intro-heading"><div><h1>Manage the request.<br><em>Protect the process.</em></h1><p>Prepare evidence-based platform reports and copyright notices with clear documentation, reliable URL checks, and an organized local queue.</p></div><a class="header-cta" href="#new-case">Create new case <span>↗</span></a></div>
+        </section>
+        <section class="stats" aria-label="Current session statistics">
+          <article class="stat"><div class="stat-top">Cases prepared <span>↗</span></div><strong id="metric-total">00</strong><small>Current session</small></article>
+          <article class="stat"><div class="stat-top">URLs reviewed <span>↗</span></div><strong id="metric-urls">00</strong><small>Validated web addresses</small></article>
+          <article class="stat"><div class="stat-top">Drafts ready <span>↗</span></div><strong id="metric-ready">00</strong><small>Awaiting manual submission</small></article>
+          <article class="stat stat-dark"><div class="stat-top">Submission status <span>●</span></div><strong class="stat-text">Manual</strong><small>No platform reports sent automatically</small></article>
+        </section>
+        <section class="flow-section" id="new-case">
+          <div class="section-top"><div><div class="eyebrow dark">01 / NEW WORKFLOW</div><h2>Start a request</h2><p>Select the appropriate channel and record the specific issue. Requests should be truthful, authorized, and supported by evidence.</p></div><span class="step-indicator">01 — 03</span></div>
+          <div class="workflow-grid" role="group" aria-label="Request type">
+            <button type="button" class="workflow selected" data-kind="dmca" aria-pressed="true"><span class="workflow-icon lavender">©</span><strong>Copyright / DMCA</strong><small>Draft a rights-holder notice</small><span class="workflow-arrow">↗</span></button>
+            <button type="button" class="workflow" data-kind="business" aria-pressed="false"><span class="workflow-icon cream">✦</span><strong>Google Business</strong><small>Review policy violation intake</small><span class="workflow-arrow">↗</span></button>
+            <button type="button" class="workflow" data-kind="social" aria-pressed="false"><span class="workflow-icon mint">◎</span><strong>Social content</strong><small>Platform reporting brief</small><span class="workflow-arrow">↗</span></button>
+            <button type="button" class="workflow" data-kind="audit" aria-pressed="false"><span class="workflow-icon peach">▥</span><strong>Ads / SEO audit</strong><small>Document a technical audit</small><span class="workflow-arrow">↗</span></button>
+          </div>
+          <div class="form-layout">
+            <form id="case-form" class="form-card" novalidate>
+              <div class="form-title"><div><span class="eyebrow dark">02 / CASE DETAILS</span><h3 id="form-heading">Copyright removal request</h3></div><span class="form-flag">DRAFT ONLY</span></div>
+              <div id="workflow-hint" class="hint" role="note">Only the copyright owner or an authorized representative should prepare a copyright complaint.</div>
+              <div class="fields two">
+                <label>Case title <span aria-hidden="true">*</span><input name="title" id="title" type="text" maxlength="120" placeholder="e.g. Unauthorized image reproduction" autocomplete="off" required></label>
+                <label>Priority <select name="priority" id="priority"><option value="Normal">Normal</option><option value="High">High</option><option value="Low">Low</option></select></label>
+              </div>
+              <div class="fields two">
+                <label>Requester / authorized agent <span aria-hidden="true">*</span><input name="requester" id="requester" type="text" maxlength="100" placeholder="Full legal name" autocomplete="name" required></label>
+                <label>Contact email <span aria-hidden="true">*</span><input name="email" id="email" type="email" maxlength="254" placeholder="name@company.com" autocomplete="email" required></label>
+              </div>
+              <div class="fields two">
+                <label>Company or rights holder (optional)<input name="company" id="company" type="text" maxlength="130" placeholder="Business or rights holder"></label>
+                <label>Issue category <select name="category" id="category"></select></label>
+              </div>
+              <div class="fields">
+                <label>Exact reported URL(s) <span aria-hidden="true">*</span><textarea id="urls" name="urls" rows="3" maxlength="5000" placeholder="https://example.com/exact-post&#10;One public URL per line. Up to 20." required></textarea></label>
+                <small class="field-note">Provide the exact content, review or page URLs. Private network addresses and non-HTTP schemes are rejected.</small>
+              </div>
+              <div class="fields" id="original-group"><label>Original copyrighted work URL <span aria-hidden="true">*</span><input name="original" id="original" type="url" maxlength="2048" placeholder="https://your-site.com/original-work"></label></div>
+              <div class="fields"><label>Facts and explanation <span aria-hidden="true">*</span><textarea id="details" name="details" rows="4" maxlength="3000" placeholder="Describe exactly what happened, why the content is reported, and any applicable policy or ownership facts." required></textarea></label></div>
+              <div class="fields"><label>Evidence references (optional)<textarea name="evidence" id="evidence" maxlength="1600" rows="2" placeholder="Screenshot descriptions, timestamps, ownership records, campaign IDs. Do not paste passwords or private credentials."></textarea></label></div>
+              <div class="consent" id="rights-group"><label class="check"><input type="checkbox" id="rights" name="rights"> <span>I own the rights or am authorized to represent the copyright owner.</span></label><label class="check"><input type="checkbox" id="goodfaith" name="goodfaith"> <span>I believe in good faith that the reported use is not authorized and confirm the provided information is accurate, including my authority under penalty of perjury.</span></label></div>
+              <label class="check general-consent"><input type="checkbox" id="truthful" name="truthful" required> <span>I confirm this is a genuine, evidence-based request; I will verify the draft before any official submission.</span></label>
+              <div id="form-error" class="error" role="alert" aria-live="polite" hidden></div>
+              <div class="form-actions"><button type="submit" class="primary-btn" id="generate-btn">Generate case &amp; draft <span>↗</span></button><button type="reset" class="secondary-btn">Reset form</button><span class="secure-note">◈ Processed on your device</span></div>
+            </form>
+            <aside class="process-panel">
+              <div class="process-head"><span class="eyebrow">YOUR WORKFLOW</span><h3>Good evidence.<br>Better decisions.</h3></div>
+              <ol class="steps"><li><span>01</span><div><strong>Identify</strong><p>Choose the relevant policy or intellectual-property basis.</p></div></li><li><span>02</span><div><strong>Document</strong><p>Preserve precise URLs and factual evidence for each request.</p></div></li><li><span>03</span><div><strong>Review and submit</strong><p>Export the draft and use the official platform form manually.</p></div></li></ol>
+              <div class="process-note"><span>↗</span><p>Removing search results is not the same as deleting source content. Platforms evaluate submissions under their own rules.</p></div>
+            </aside>
+          </div>
+        </section>
+        <section id="case-log" class="case-section">
+          <div class="section-top"><div><div class="eyebrow dark">03 / CASE MANAGEMENT</div><h2>Session queue</h2><p>Prepared requests remain only in this browser tab. Download what you need before leaving.</p></div><button id="clear-cases" type="button" class="light-btn">Clear queue</button></div>
+          <div class="queue-layout"><div class="queue"><div class="queue-head"><span>CASE / WORKFLOW</span><span>STATUS</span></div><div id="case-list" class="case-list"><div class="empty-state"><span>◈</span><strong>No requests yet</strong><p>Your first prepared case will appear here.</p></div></div></div><div class="draft-panel" id="draft-panel"><div class="draft-head"><span class="eyebrow dark">GENERATED DOCUMENT</span><strong>Ready for review</strong></div><div class="draft-empty" id="draft-empty"><span>▤</span><p>Select a prepared case to preview and export its report draft.</p></div><div id="draft-content" hidden><div class="draft-meta" id="draft-meta"></div><pre id="draft-text"></pre><div class="draft-actions"><button id="copy-draft" type="button">Copy text</button><button id="download-txt" type="button">Download TXT</button><button id="download-json" type="button">Export JSON</button></div><p class="small-print">Not submitted to any provider. Review facts and required legal statements before submission.</p><a id="official-link" target="_blank" rel="noopener noreferrer" class="official-link">Open official reporting instructions ↗</a></div></div></div>
+        </section>
+        <section id="resources" class="resource-section"><div class="section-top"><div><div class="eyebrow dark">OFFICIAL REFERENCES</div><h2>Use the proper channel</h2><p>A poor review alone is not a policy violation. Submit only where there is a genuine basis.</p></div></div><div class="resource-grid">
+          <a href="https://support.google.com/legal/troubleshooter/1114905" target="_blank" rel="noopener noreferrer"><span>©</span><strong>Google legal reporting</strong><small>Copyright, legal claims and product selection</small><b>↗</b></a>
+          <a href="https://support.google.com/business/answer/4596773" target="_blank" rel="noopener noreferrer"><span>✦</span><strong>Business Profile reviews</strong><small>Policy-based review reporting and appeals</small><b>↗</b></a>
+          <a href="https://support.google.com/websearch/contact/content_removal_form" target="_blank" rel="noopener noreferrer"><span>◎</span><strong>Search personal content</strong><small>Privacy and certain personal-information removals</small><b>↗</b></a>
+        </div></section>
+        <footer>© <span id="year">2026</span> Mehedi Hasan · ORM Case Desk <span>Independent case-preparation tool · Not affiliated with Google or any social network.</span></footer>
+      </main>
+    </div>
+  </div>
+  <div id="toast" role="status" aria-live="polite" class="toast" hidden></div>
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

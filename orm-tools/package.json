@@ -1,0 +1,12 @@
+{
+  "name": "orm-case-desk",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Privacy-first browser-based copyright and platform report drafting.",
+  "scripts": {
+    "test": "node --test ./tests/*.test.mjs",
+    "serve": "python3 -m http.server 8000"
+  },
+  "engines": { "node": ">=20" }
+}
