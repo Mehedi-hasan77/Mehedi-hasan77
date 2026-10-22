@@ -1,15 +1,15 @@
 {
-  "name": "Fahim Sikder | Web Development & AI",
-  "short_name": "Fahim Sikder",
-  "start_url": "/",
-  "scope": "/",
+  "name": "Mehedi Hasan | Web Development & AI",
+  "short_name": "Mehedi Hasan",
+  "start_url": "/Mehedi-hasan77/",
+  "scope": "/Mehedi-hasan77/",
   "display": "browser",
   "background_color": "#fafafa",
   "theme_color": "#1b1b1e",
-  "description": "Freelance web developer Fahim Sikder creates custom websites, ecommerce stores, landing pages, SEO solutions and AI powered web applications for businesses worldwide.",
+  "description": "Freelance web developer Mehedi Hasan creates custom websites, ecommerce stores, landing pages, SEO solutions and AI powered web applications for businesses worldwide.",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/Mehedi-hasan77/favicon.svg",
       "sizes": "any",
       "type": "image/svg+xml",
       "purpose": "any"

@@ -1,8 +1,8 @@
-# Fahim Sikder — AI Engineer Portfolio
+# Mehedi Hasan — AI Engineer Portfolio
 
-Cyber / terminal-inspired personal portfolio for **Fahim Sikder**.
+Cyber / terminal-inspired personal portfolio for **Mehedi Hasan**.
 
-**Live:** https://fahimsikderai.com/
+**Live:** https://mehedi-hasan77.github.io/Mehedi-hasan77/
 
 ## Primary positioning
 - AI Engineer
@@ -11,11 +11,11 @@ Cyber / terminal-inspired personal portfolio for **Fahim Sikder**.
 - Cloud / production engineering
 
 ## Current design
-- No personal photo
+- Mehedi Hasan profile portrait
 - Compact project list instead of oversized project cards
 - Hacker/developer visual language without making false security credentials
 - Mobile-first responsive layout
 - Featured projects: HeyProma, Exam Center BD, Taskora, Neferiq, CinemaMaddy, Oronno Nogor
 
 ## Deployment
-GitHub Pages serves the custom domain from the `main` branch using `CNAME`.
+GitHub Pages publishes from the `main` branch at https://mehedi-hasan77.github.io/Mehedi-hasan77/

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://fahimsikderai.com/sitemap.xml
+Sitemap: https://mehedi-hasan77.github.io/Mehedi-hasan77/sitemap.xml
