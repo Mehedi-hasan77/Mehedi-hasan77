@@ -1,0 +1,542 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#5b4df7">
+  <link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg?v=20261009">
+  <link rel="manifest" href="/site.webmanifest">
+  <title>Custom Website & Ecommerce Development | Fahim Sikder</title>
+  <meta name="description" content="Custom websites, ecommerce, landing pages and web applications by Fahim Sikder. Explore responsive website design and development services, SEO and AI integrations.">
+  <meta name="author" content="Fahim Sikder">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <link rel="canonical" href="https://fahimsikderai.com/web-design/">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://fahimsikderai.com/web-design/">
+  <meta property="og:site_name" content="Fahim Sikder">
+  <meta property="og:title" content="Custom Website & Ecommerce Development | Fahim Sikder">
+  <meta property="og:description" content="Modern business websites, online stores, landing pages and web apps crafted for performance and clarity.">
+  <meta name="twitter:card" content="summary">
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/222631662?v=4">
+  <meta name="twitter:image" content="https://avatars.githubusercontent.com/u/222631662?v=4">
+  <meta name="twitter:title" content="Custom Website & Ecommerce Development | Fahim Sikder">
+  <meta name="twitter:description" content="Explore custom website design, online stores, landing pages and web applications.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Hind+Siliguri:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {
+        "@type":"Person",
+        "@id":"https://fahimsikderai.com/#person",
+        "name":"Fahim Sikder",
+        "url":"https://fahimsikderai.com/",
+        "email":"mailto:fahim.sikder.web@gmail.com",
+        "sameAs":["https://github.com/Fahimxbd","https://www.linkedin.com/in/callmefahim59/"],
+        "jobTitle":"Web Developer & AI Engineer",
+        "knowsAbout":["Web Development","E-commerce","Landing Pages","Portfolio Websites","WordPress","AI Automation","Supabase","Cloudflare","SEO"]
+      },
+      {
+        "@type":"ProfessionalService",
+        "@id":"https://fahimsikderai.com/#service",
+        "name":"Fahim Sikder Web Development",
+        "url":"https://fahimsikderai.com/",
+        "founder":{"@id":"https://fahimsikderai.com/#person"},
+        "areaServed":"Worldwide",
+        "serviceType":["Website Design","E-commerce Development","Landing Page Design","Portfolio Website Design","Business Website Development","Custom Web Apps"]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root{
+      --ink:#0f172a;--muted:#64748b;--line:#e7e9f3;--white:#fff;--bg:#f7f8fc;
+      --primary:#5b4df7;--primary2:#7c3aed;--cyan:#0ea5e9;--green:#16a34a;
+      --pink:#ec4899;--orange:#f59e0b;--navy:#111b4b;--soft:#f1f0ff;
+      --shadow:0 24px 70px rgba(45,38,110,.12);--max:1180px
+    }
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:80px}
+    body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,"Hind Siliguri",sans-serif;-webkit-font-smoothing:antialiased}
+    body:before{content:"";position:fixed;inset:0;pointer-events:none;background:
+      radial-gradient(circle at 10% 0%,rgba(91,77,247,.08),transparent 28%),
+      radial-gradient(circle at 92% 18%,rgba(14,165,233,.08),transparent 25%);
+      z-index:-1}
+    a{text-decoration:none;color:inherit}
+    img{max-width:100%}
+    .container{width:min(var(--max),calc(100% - 32px));margin:auto}
+    .pill{display:inline-flex;align-items:center;gap:8px;border:1px solid #dedcff;background:#f8f7ff;color:#5748dc;border-radius:999px;padding:8px 12px;font-size:12px;font-weight:800}
+    .dot{width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 5px rgba(34,197,94,.12)}
+    .accent{background:linear-gradient(90deg,#4f46e5,#7c3aed,#2563eb);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .muted{color:var(--muted)}
+    header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.88);backdrop-filter:blur(18px);border-bottom:1px solid rgba(15,23,42,.06)}
+    .nav{height:72px;display:flex;align-items:center;gap:20px}
+    .brand{display:flex;align-items:center;gap:11px;font-weight:800}
+    .brand-mark{position:relative;width:46px;height:46px;border-radius:13px;background:#07111f;border:1px solid rgba(16,185,129,.42);display:grid;place-items:center;color:#5ee9b5;box-shadow:0 12px 28px rgba(15,23,42,.13),inset 0 0 18px rgba(16,185,129,.08);font:700 15px "JetBrains Mono",monospace;letter-spacing:-.08em}
+    .brand-mark:before,.brand-mark:after{content:"";position:absolute;width:7px;height:7px;border-color:#22c55e;opacity:.75}
+    .brand-mark:before{left:5px;top:5px;border-left:1px solid;border-top:1px solid}
+    .brand-mark:after{right:5px;bottom:5px;border-right:1px solid;border-bottom:1px solid}
+    .brand-copy{display:grid;line-height:1.02}.brand-copy strong{font:700 16px "JetBrains Mono",monospace;letter-spacing:-.03em;color:#111827}.brand-copy strong:after{content:"_";color:#16a34a;animation:brandBlink 1s steps(1) infinite}.brand-copy small{margin-top:6px;color:#7c8799;font-size:9px;letter-spacing:.09em;text-transform:uppercase}.brand-extra{display:flex;align-items:center;gap:8px;margin-top:5px;color:#7b8799;font:600 8px "JetBrains Mono",monospace;letter-spacing:.07em;text-transform:uppercase}.brand-online{display:inline-flex;align-items:center;gap:5px;color:#15803d}.brand-online:before{content:"";width:6px;height:6px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 4px rgba(34,197,94,.1)}@keyframes brandBlink{50%{opacity:0}}
+    nav{margin-left:auto;display:flex;align-items:center;gap:3px}
+    nav a{padding:9px 10px;border-radius:9px;color:#4b5563;font-size:13px;font-weight:700}
+    nav a:hover{color:var(--primary);background:var(--soft)}
+    .nav-cta{display:flex;gap:8px;margin-left:6px}
+    .mini-btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:40px;padding:8px 12px;border-radius:10px;font-size:12px;font-weight:800;border:1px solid var(--line);background:white}
+    .mini-btn.primary{color:#fff;border-color:transparent;background:linear-gradient(135deg,var(--primary),var(--primary2))}.mini-btn.messenger{color:#fff;border-color:transparent;background:#168aff}
+    .menu{display:none;margin-left:auto;width:42px;height:42px;border:1px solid var(--line);background:#fff;border-radius:11px;font-size:20px}
+    .mobile-nav{display:none}.mobile-nav.open{display:grid;padding:10px 16px 18px;background:#fff;border-top:1px solid var(--line)}
+    .mobile-nav a{padding:12px;border-bottom:1px solid #eef0f5;font-weight:700;color:#475569}
+    .hero{padding:68px 0 36px;overflow:hidden}
+    .hero-grid{display:grid;grid-template-columns:1.04fr .96fr;gap:46px;align-items:center}
+    .hero h1{font-size:clamp(46px,6.5vw,78px);line-height:1.02;letter-spacing:-.055em;margin:20px 0 18px;max-width:760px}
+    .hero h1 span{display:block}
+    .lead{max-width:700px;color:#5f6b7e;font-size:clamp(17px,2vw,20px);line-height:1.65;margin:0}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;min-height:50px;padding:11px 18px;border-radius:12px;font-size:14px;font-weight:800;border:1px solid var(--line);background:#fff;transition:.2s}
+    .btn:hover{transform:translateY(-2px);box-shadow:0 12px 30px rgba(15,23,42,.08)}
+    .btn.primary{color:#fff;border-color:transparent;background:linear-gradient(135deg,#4f46e5,#7c3aed);box-shadow:0 14px 34px rgba(91,77,247,.24)}
+    .btn.whatsapp{color:#fff;border-color:transparent;background:#16a34a}
+    .btn.messenger{color:#fff;border-color:transparent;background:#168aff}
+    .proof{display:flex;flex-wrap:wrap;align-items:center;gap:12px;margin-top:20px;color:#536073;font-size:12px}
+    .avatars{display:flex}.avatar{width:29px;height:29px;margin-left:-7px;border:2px solid #fff;border-radius:50%;display:grid;place-items:center;background:linear-gradient(135deg,#dbeafe,#ede9fe);font-size:10px;font-weight:800;color:#4f46e5}.avatar:first-child{margin-left:0}
+    .stars{color:#f59e0b;letter-spacing:1px}
+    .hero-card{position:relative;min-height:500px}
+    .dev-console{position:absolute;left:-8px;bottom:22px;z-index:7;width:min(315px,74%);border:1px solid rgba(34,197,94,.25);border-radius:15px;background:rgba(7,17,31,.96);box-shadow:0 20px 45px rgba(15,23,42,.22);overflow:hidden;color:#dbeafe;font:500 10px/1.65 "JetBrains Mono",monospace}
+    .dev-console-top{display:flex;align-items:center;gap:6px;padding:9px 11px;border-bottom:1px solid rgba(148,163,184,.12);background:#0b1524}.dev-console-top i{width:7px;height:7px;border-radius:50%;background:#fb7185}.dev-console-top i:nth-child(2){background:#fbbf24}.dev-console-top i:nth-child(3){background:#22c55e}.dev-console-top b{margin-left:auto;color:#5ee9b5;font-size:8px;letter-spacing:.08em}
+    .dev-console-body{padding:12px 14px}.dev-line{display:flex;gap:9px}.dev-line span:first-child{color:#4ade80}.dev-ok{color:#86efac}.dev-dim{color:#7f8da3}.dev-cursor{display:inline-block;width:6px;height:11px;margin-left:3px;background:#22c55e;vertical-align:-2px;animation:brandBlink 1s steps(1) infinite}
+    .signal-row{display:flex;flex-wrap:wrap;gap:7px;margin-top:10px}.signal-chip{display:inline-flex;align-items:center;gap:5px;padding:4px 7px;border:1px solid rgba(94,234,212,.15);border-radius:999px;background:rgba(15,23,42,.35);color:#9fb1c6;font-size:8px}.signal-chip b{color:#5ee9b5;font-weight:700}
+    .glow{position:absolute;width:360px;height:360px;border-radius:50%;filter:blur(12px);background:radial-gradient(circle,rgba(124,58,237,.2),rgba(14,165,233,.05) 54%,transparent 70%);right:5%;top:10%}
+    .browser{position:absolute;right:0;top:44px;width:92%;border:1px solid #d9dce8;border-radius:20px;background:#fff;box-shadow:0 35px 90px rgba(36,28,99,.2);overflow:hidden;transform:rotate(-1.5deg)}
+    .browser-top{height:42px;display:flex;align-items:center;gap:6px;padding:0 13px;background:#f4f6fb;border-bottom:1px solid #e6e8ef}
+    .browser-top i{width:9px;height:9px;border-radius:50%;background:#fb7185}.browser-top i:nth-child(2){background:#fbbf24}.browser-top i:nth-child(3){background:#4ade80}
+    .url{margin-left:10px;flex:1;height:23px;border-radius:999px;background:#fff;border:1px solid #e3e6ee;color:#9aa2b2;display:flex;align-items:center;padding:0 10px;font-size:9px}
+    .site-preview{min-height:380px;padding:24px;background:linear-gradient(145deg,#eef2ff,#fff 45%,#f5f3ff)}
+    .preview-nav{display:flex;align-items:center;justify-content:space-between;font-size:9px;font-weight:800}.preview-logo{color:#5b4df7;font-size:12px}
+    .preview-hero{display:grid;grid-template-columns:1.05fr .95fr;gap:17px;align-items:center;margin-top:26px}
+    .preview-copy b{font-size:30px;line-height:1.03;letter-spacing:-.04em;display:block}.preview-copy p{font-size:9px;color:#697386;line-height:1.6}
+    .preview-button{display:inline-block;background:#5b4df7;color:#fff;padding:8px 12px;border-radius:7px;font-size:8px;font-weight:800}
+    .preview-art{height:190px;border-radius:20px;background:linear-gradient(145deg,#151a47,#4034b7 50%,#0ea5e9);position:relative;overflow:hidden}
+    .preview-art:before,.preview-art:after{content:"";position:absolute;border-radius:22px;background:rgba(255,255,255,.14);transform:rotate(25deg)}
+    .preview-art:before{width:120px;height:220px;right:15px;top:-24px}.preview-art:after{width:80px;height:150px;left:10px;bottom:-50px}
+    .preview-products{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:18px}.preview-products span{height:57px;border:1px solid #e6e7f0;border-radius:10px;background:#fff}
+    .phone{position:absolute;right:-8px;bottom:12px;width:137px;height:270px;border:8px solid #111827;border-radius:28px;background:#fff;box-shadow:0 25px 55px rgba(15,23,42,.25);overflow:hidden;transform:rotate(3deg);z-index:3}
+    .phone:before{content:"";display:block;width:48px;height:5px;border-radius:999px;background:#111827;margin:6px auto}
+    .phone-screen{height:100%;padding:11px;background:linear-gradient(#eef2ff,#fff)}.phone-screen b{font-size:15px;line-height:1.05}.phone-screen p{font-size:7px;color:#64748b}.phone-art{height:105px;border-radius:11px;background:linear-gradient(145deg,#161b50,#6d4af4,#0ea5e9);margin-top:10px}
+    .exp-badge,.premium-badge{position:absolute;z-index:5;border-radius:18px;box-shadow:0 16px 35px rgba(15,23,42,.16);font-weight:900}
+    .exp-badge{left:-8px;top:8px;width:124px;height:124px;display:grid;place-items:center;text-align:center;background:linear-gradient(145deg,#fde68a,#f59e0b);border:4px solid #fff7d5;transform:rotate(-7deg);font-size:15px;line-height:1.2}
+    .premium-badge{right:0;top:0;padding:14px 18px;color:#fff;background:linear-gradient(135deg,#7c3aed,#4f46e5);transform:rotate(4deg);font-size:13px}.premium-badge small{display:block;margin-top:3px;font-size:9px;font-weight:700;color:#ddd6fe}
+    
+    .featured-wrap{margin-top:26px;overflow:hidden}
+    .featured-head{display:flex;align-items:center;justify-content:space-between;gap:14px;margin-bottom:12px}
+    .featured-head strong{display:flex;align-items:center;gap:8px;font-size:14px}
+    .featured-head strong:before{content:"◇";display:grid;place-items:center;width:30px;height:30px;border-radius:9px;background:#efedff;color:#5b4df7;font-size:16px}
+    .featured-head span{color:#6d5dfc;font-size:11px;font-weight:800}
+    .featured-viewport{overflow:hidden;mask-image:linear-gradient(90deg,transparent,#000 5%,#000 95%,transparent)}
+    .featured-track{display:flex;width:max-content;gap:12px;animation:slideServices 28s linear infinite;padding:3px 0 9px}
+    .featured-viewport:hover .featured-track{animation-play-state:paused}
+    @keyframes slideServices{from{transform:translateX(0)}to{transform:translateX(calc(-50% - 6px))}}
+    .feature-banner{position:relative;width:248px;height:152px;flex:0 0 auto;border-radius:18px;overflow:hidden;border:1px solid rgba(15,23,42,.07);box-shadow:0 14px 30px rgba(37,34,90,.10);padding:18px}
+    .feature-banner h3{position:relative;z-index:2;margin:0;font-size:18px;line-height:1.05;letter-spacing:-.025em}
+    .feature-banner p{position:relative;z-index:2;margin:7px 0 0;font-size:10px;line-height:1.35;max-width:115px}
+    .feature-banner .mini-arrow{position:absolute;z-index:3;left:18px;bottom:16px;width:34px;height:34px;border-radius:50%;display:grid;place-items:center;color:#fff;background:#5b4df7;font-weight:900}
+    .feature-banner .device{position:absolute;right:13px;bottom:-7px;width:88px;height:126px;border:6px solid #172033;border-radius:17px;background:#fff;transform:rotate(-4deg);box-shadow:0 15px 25px rgba(15,23,42,.18);overflow:hidden}
+    .feature-banner .device:before{content:"";display:block;width:34px;height:4px;border-radius:999px;background:#172033;margin:5px auto 7px}
+    .feature-banner .device-screen{margin:0 7px;height:95px;border-radius:9px;background:linear-gradient(150deg,#fff,#f1f5f9);padding:7px}
+    .feature-banner .device-screen b{display:block;height:7px;border-radius:6px;background:currentColor;opacity:.75;margin-bottom:6px}
+    .feature-banner .device-screen i{display:block;height:26px;border-radius:7px;background:rgba(255,255,255,.72);border:1px solid rgba(15,23,42,.06);margin-bottom:6px}
+    .feature-banner .device-screen em{display:grid;grid-template-columns:repeat(2,1fr);gap:4px}
+    .feature-banner .device-screen em:before,.feature-banner .device-screen em:after{content:"";height:19px;border-radius:5px;background:rgba(255,255,255,.8);border:1px solid rgba(15,23,42,.05)}
+    .banner-ecom{background:linear-gradient(135deg,#fff0ed,#ffe1d8 52%,#ffd0c2);color:#7c2d12}
+    .banner-electronics{background:linear-gradient(135deg,#ecfeff,#cffafe 50%,#a5f3fc);color:#155e75}
+    .banner-grocery{background:linear-gradient(135deg,#f0fdf4,#dcfce7 52%,#bbf7d0);color:#166534}
+    .banner-loan{background:linear-gradient(135deg,#eff6ff,#dbeafe 54%,#bfdbfe);color:#1d4ed8}
+    .banner-casino{background:linear-gradient(135deg,#1a1030,#3b176f 55%,#7e22ce);color:#fff}
+    .banner-casino .device{border-color:#2e1065;background:#111827}
+    .banner-casino .device-screen{background:linear-gradient(150deg,#22103c,#4c1d95)}
+    .banner-casino .device-screen i,.banner-casino .device-screen em:before,.banner-casino .device-screen em:after{background:rgba(244,114,182,.22);border-color:rgba(255,255,255,.10)}
+    .banner-loan .device-screen{background:linear-gradient(150deg,#eff6ff,#bfdbfe)}
+
+    /* Realistic mini UI previews inside the sliding phone mockups */
+    .feature-banner .device-screen[class*="ui-"]{margin:0 7px;height:95px;border-radius:9px;padding:6px;display:block;position:relative;overflow:hidden;color:#111827;background:#fff}
+    .feature-banner .ui-status{display:flex;justify-content:flex-end;gap:2px;height:5px;margin-bottom:3px}
+    .feature-banner .ui-status span{width:3px;height:3px;border-radius:50%;background:#cbd5e1}
+    .feature-banner .ui-brand{display:block;font:800 5px/1 Inter,sans-serif;letter-spacing:.08em;margin-bottom:4px;color:#334155}
+    .feature-banner .ui-visual{display:block;height:31px;border-radius:6px;margin-bottom:5px;position:relative;overflow:hidden}
+    .feature-banner .ui-visual:before,.feature-banner .ui-visual:after{content:"";position:absolute;border-radius:5px}
+    .feature-banner .ui-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:4px}
+    .feature-banner .ui-grid>span{display:block;height:17px;border-radius:5px;background:#f8fafc;border:1px solid rgba(15,23,42,.07);position:relative}
+    .feature-banner .ui-grid>span:after{content:"";position:absolute;left:3px;right:3px;bottom:3px;height:2px;border-radius:3px;background:#cbd5e1}
+    .feature-banner .ui-cta{display:block;width:36px;height:7px;border-radius:999px;margin:5px auto 0}
+    .feature-banner .ui-fashion .ui-visual{background:linear-gradient(135deg,#fecdd3,#fff1f2 55%,#fb7185)}
+    .feature-banner .ui-fashion .ui-visual:before{width:18px;height:25px;background:#fff;left:8px;bottom:-4px;transform:rotate(-7deg);box-shadow:24px 2px 0 rgba(255,255,255,.82)}
+    .feature-banner .ui-fashion .ui-cta{background:#e11d48}
+    .feature-banner .ui-electronics .ui-visual{background:linear-gradient(135deg,#cffafe,#ecfeff 48%,#22d3ee)}
+    .feature-banner .ui-electronics .ui-visual:before{width:29px;height:18px;background:#0f172a;right:6px;top:6px;border-radius:3px}
+    .feature-banner .ui-electronics .ui-visual:after{width:17px;height:4px;background:#64748b;right:12px;bottom:4px}
+    .feature-banner .ui-electronics .ui-cta{background:#0891b2}
+    .feature-banner .ui-grocery .ui-visual{background:linear-gradient(135deg,#dcfce7,#f0fdf4 52%,#86efac)}
+    .feature-banner .ui-grocery .ui-visual:before{width:25px;height:18px;background:#22c55e;left:7px;top:7px;border-radius:50% 50% 42% 42%}
+    .feature-banner .ui-grocery .ui-visual:after{width:12px;height:20px;background:#f59e0b;right:8px;top:6px;transform:rotate(18deg)}
+    .feature-banner .ui-grocery .ui-cta{background:#16a34a}
+    .feature-banner .ui-loan{background:linear-gradient(180deg,#eff6ff,#fff)}
+    .feature-banner .ui-loan .ui-visual{background:linear-gradient(135deg,#2563eb,#60a5fa)}
+    .feature-banner .ui-loan .ui-visual:before{left:7px;right:7px;top:7px;height:5px;background:rgba(255,255,255,.9);box-shadow:0 10px 0 rgba(255,255,255,.55)}
+    .feature-banner .ui-loan .ui-visual:after{width:15px;height:15px;right:7px;bottom:5px;background:#dbeafe;border-radius:50%}
+    .feature-banner .ui-loan .ui-grid>span{background:#f8fbff;border-color:#bfdbfe}
+    .feature-banner .ui-loan .ui-cta{background:#2563eb}
+    .feature-banner .ui-casino{background:linear-gradient(180deg,#1b1231,#2e1065);color:#fff}
+    .feature-banner .ui-casino .ui-status span{background:#a78bfa}
+    .feature-banner .ui-casino .ui-brand{color:#f5d0fe}
+    .feature-banner .ui-casino .ui-visual{background:linear-gradient(135deg,#7e22ce,#db2777 60%,#f59e0b)}
+    .feature-banner .ui-casino .ui-visual:before{content:"777";display:grid;place-items:center;inset:6px;background:#fff;color:#be123c;font:900 9px/1 Inter,sans-serif;letter-spacing:2px}
+    .feature-banner .ui-casino .ui-visual:after{display:none}
+    .feature-banner .ui-casino .ui-grid>span{background:#3b176f;border-color:rgba(255,255,255,.1)}
+    .feature-banner .ui-casino .ui-grid>span:after{background:#f0abfc}
+    .feature-banner .ui-casino .ui-cta{background:#f59e0b}
+
+    /* Strong, readable contact strips for mobile and desktop */
+    .hero-sales .hero-contact{min-height:66px;border:0;border-radius:17px;padding:11px 15px;display:grid;grid-template-columns:42px 1fr 22px;align-items:center;gap:12px;text-align:left;color:#fff!important;box-shadow:0 14px 30px rgba(15,23,42,.12)}
+    .hero-sales .hero-contact:hover{transform:translateY(-2px)}
+    .hero-sales .hero-whatsapp{background:linear-gradient(135deg,#16a34a,#22c55e)}
+    .hero-sales .hero-messenger{background:linear-gradient(135deg,#1877f2,#168aff)}
+    .hero-sales .contact-icon{width:42px;height:42px;border-radius:13px;background:rgba(255,255,255,.16);display:grid;place-items:center}
+    .hero-sales .contact-icon svg{width:24px;height:24px;display:block;fill:#fff}
+    .hero-sales .contact-copy{display:flex;flex-direction:column;min-width:0}
+    .hero-sales .contact-copy strong{font-size:15px;line-height:1.15;color:#fff!important}
+    .hero-sales .contact-copy small{margin-top:3px;font-size:10px;font-weight:600;opacity:.92;color:#fff!important}
+    .hero-sales .contact-arrow{font-size:20px;font-weight:900;color:#fff!important;text-align:right}
+
+    .hero-sales{display:grid;gap:12px;margin-top:16px}
+    .hero-sales .btn{width:100%}
+    .quick-packages{padding:16px;border:1px solid #e5e7ef;border-radius:18px;background:rgba(255,255,255,.92);box-shadow:0 15px 38px rgba(45,38,110,.08)}
+    .quick-packages-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:11px}
+    .quick-packages-head b{font-size:14px}.quick-packages-head span{padding:5px 8px;border-radius:999px;background:#f2efff;color:#6d5dfc;font-size:9px;font-weight:800}
+    .quick-package-list{display:grid;gap:8px}
+    .quick-package{display:grid;grid-template-columns:38px 1fr auto;gap:10px;align-items:center;padding:11px;border-radius:13px;border:1px solid #e8e9f1;transition:.18s}
+    .quick-package:hover{transform:translateX(3px);box-shadow:0 9px 22px rgba(15,23,42,.06)}
+    .quick-package .qp-icon{width:38px;height:38px;border-radius:11px;display:grid;place-items:center;font-size:18px;background:#fff}
+    .quick-package strong{display:block;font-size:12px}.quick-package small{display:block;margin-top:2px;color:#7b8596;font-size:9px}
+    .quick-package .qp-price{font-size:18px;font-weight:900;color:#5b4df7;white-space:nowrap}
+    .quick-package.ecom{background:#fff5f7;border-color:#ffd9e3}.quick-package.ecom .qp-icon{color:#e11d48}
+    .quick-package.loan{background:#eff7ff;border-color:#d6e9ff}.quick-package.loan .qp-icon{color:#2563eb}
+    .quick-package.casino{background:#f7f2ff;border-color:#eadcff}.quick-package.casino .qp-icon{color:#7c3aed}
+    .hero-trustline{display:flex;align-items:center;justify-content:center;gap:8px;margin-top:-2px;color:#15803d;font-size:10px;font-weight:700}
+    .hero-trustline span{color:#94a3b8}
+
+    .metrics-wrap{margin-top:34px}
+    .metrics{display:grid;grid-template-columns:repeat(5,1fr);border:1px solid #e2e5ef;border-radius:18px;background:#fff;box-shadow:var(--shadow);overflow:hidden}
+    .metric{padding:19px 16px;text-align:center;position:relative}.metric:not(:last-child):after{content:"";position:absolute;right:0;top:22%;height:56%;width:1px;background:#eceef4}
+    .metric b{display:block;color:#4f46e5;font-size:20px}.metric span{color:#7c8799;font-size:11px;font-weight:700}
+    .section{padding:74px 0}
+    .section.white{background:#fff}
+    .section-head{text-align:center;max-width:760px;margin:0 auto 34px}.eyebrow{font-size:11px;color:#5b4df7;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.section-head h2{font-size:clamp(32px,4vw,48px);line-height:1.08;letter-spacing:-.04em;margin:10px 0}.section-head p{margin:0;color:#6b7280;line-height:1.7}
+    .services{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+    .service{position:relative;overflow:hidden;padding:20px;border-radius:18px;background:#fff;border:1px solid #e5e7ef;box-shadow:0 10px 28px rgba(37,34,90,.055);transition:.2s}
+    .service:hover{transform:translateY(-5px);box-shadow:0 20px 45px rgba(37,34,90,.1);border-color:#d7d2ff}
+    .service-icon{width:44px;height:44px;border-radius:13px;display:grid;place-items:center;background:#f0efff;color:#5b4df7;font-size:21px}
+    .service:nth-child(2) .service-icon{background:#fff1f7;color:#ec4899}.service:nth-child(3) .service-icon{background:#ecfeff;color:#0891b2}.service:nth-child(4) .service-icon{background:#fff7ed;color:#ea580c}.service:nth-child(5) .service-icon{background:#fdf4ff;color:#a21caf}.service:nth-child(6) .service-icon{background:#ecfdf5;color:#059669}.service:nth-child(7) .service-icon{background:#eff6ff;color:#2563eb}.service:nth-child(8) .service-icon{background:#f8fafc;color:#334155}
+    .service h3{font-size:17px;margin:16px 0 7px}.service p{min-height:58px;margin:0;color:#748093;font-size:12px;line-height:1.6}.price{margin-top:14px;color:#5b4df7;font-weight:900;font-size:13px}.price strong{font-size:19px}
+    .features{display:grid;grid-template-columns:repeat(5,1fr);gap:11px}.feature{padding:16px 12px;text-align:center;border:1px solid #e8eaf1;border-radius:15px;background:#fff}.feature i{font-style:normal;font-size:21px}.feature b{display:block;margin-top:8px;font-size:12px}.feature span{display:block;margin-top:3px;color:#8a94a6;font-size:10px}
+    .projects{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.project{min-height:285px}.project h3{font-size:21px}
+    .project{overflow:hidden;border:1px solid #e2e5ed;border-radius:20px;background:#fff;box-shadow:0 12px 35px rgba(30,33,70,.07);transition:.2s}
+    .project:hover{transform:translateY(-5px);box-shadow:0 22px 55px rgba(30,33,70,.12)}
+    .project-preview{height:188px;padding:15px;background:linear-gradient(145deg,#111827,#312e81 55%,#2563eb);position:relative;overflow:hidden}.project:nth-child(2) .project-preview{background:linear-gradient(145deg,#fff1f2,#fb7185,#be123c)}.project:nth-child(3) .project-preview{background:linear-gradient(145deg,#0f172a,#164e63,#0891b2)}.project:nth-child(4) .project-preview{background:linear-gradient(145deg,#052e16,#166534,#22c55e)}.project:nth-child(5) .project-preview{background:linear-gradient(145deg,#140a1f,#6b21a8,#f59e0b)}.project:nth-child(6) .project-preview{background:linear-gradient(145deg,#020617,#334155,#64748b)}.project:nth-child(7) .project-preview{background:linear-gradient(145deg,#fff7ed,#f97316,#fb7185)}
+    .mock-window{height:100%;border-radius:12px;background:rgba(255,255,255,.95);overflow:hidden;box-shadow:0 16px 32px rgba(0,0,0,.18)}.mock-bar{height:23px;background:#f8fafc;border-bottom:1px solid #e5e7eb;display:flex;gap:4px;align-items:center;padding:0 7px}.mock-bar i{width:5px;height:5px;border-radius:50%;background:#fb7185}.mock-bar i:nth-child(2){background:#fbbf24}.mock-bar i:nth-child(3){background:#4ade80}.mock-body{display:grid;grid-template-columns:1.1fr .9fr;gap:8px;padding:14px}.mock-copy span{display:block;height:6px;border-radius:6px;background:#e2e8f0;margin-bottom:6px}.mock-copy span:first-child{width:75%;height:12px;background:#6d5dfc}.mock-copy span:nth-child(2){width:92%}.mock-copy span:nth-child(3){width:68%}.mock-art{height:78px;border-radius:10px;background:linear-gradient(145deg,#e0e7ff,#c4b5fd)}.project:nth-child(7) .mock-art{background:linear-gradient(145deg,#ffedd5,#fdba74)}
+    .project-body{padding:19px}.project-meta{display:flex;align-items:center;justify-content:space-between;gap:10px}.status-live{display:inline-flex;align-items:center;gap:6px;color:#16a34a;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.08em}.status-live:before{content:"";width:6px;height:6px;border-radius:50%;background:#22c55e}.project h3{font-size:19px;margin:8px 0 7px}.project p{margin:0;color:#718096;font-size:12px;line-height:1.6;min-height:58px}.stack{display:flex;flex-wrap:wrap;gap:6px;margin-top:13px}.stack span{padding:5px 7px;border-radius:999px;background:#f5f6fa;color:#667085;font-size:9px;font-weight:800}.project-actions{margin-top:16px;display:flex;gap:8px}.project-link{display:inline-flex;align-items:center;gap:6px;color:#5145df;font-size:11px;font-weight:900}.project-link.disabled{color:#9ca3af}
+    .pricing{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;align-items:stretch}.plan{position:relative;padding:25px;border:1px solid #e2e5ed;border-radius:20px;background:#fff;box-shadow:0 12px 32px rgba(30,33,70,.06)}.plan.popular{border:2px solid #6d5dfc;box-shadow:0 24px 55px rgba(91,77,247,.16);transform:translateY(-7px)}.popular-tag{position:absolute;right:18px;top:-12px;padding:6px 10px;border-radius:999px;background:linear-gradient(135deg,#ec4899,#7c3aed);color:#fff;font-size:9px;font-weight:900;text-transform:uppercase;letter-spacing:.06em}.plan small{color:#7d8797;font-weight:700}.plan h3{font-size:20px;margin:8px 0}.plan-price{font-size:36px;font-weight:900;letter-spacing:-.04em}.plan-price span{font-size:11px;color:#7b8494;font-weight:700;letter-spacing:0}.plan ul{padding:0;margin:20px 0 22px;list-style:none;display:grid;gap:10px}.plan li{font-size:12px;color:#5f6b7d}.plan li:before{content:"✓";margin-right:8px;color:#16a34a;font-weight:900}
+    .about-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:20px;align-items:stretch}.about-card{padding:28px;border-radius:22px;background:linear-gradient(145deg,#11194b,#4f46e5 65%,#0ea5e9);color:#fff;position:relative;overflow:hidden}.about-card:after{content:"FS";position:absolute;right:-12px;bottom:-34px;font-size:150px;font-weight:900;color:rgba(255,255,255,.07)}.about-card h3{font-size:30px;margin:14px 0 10px}.about-card p{color:#e0e7ff;line-height:1.7}.about-points{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.about-point{padding:20px;border-radius:18px;background:#fff;border:1px solid #e4e7ef}.about-point b{display:block;font-size:15px}.about-point span{display:block;margin-top:6px;color:#748093;font-size:12px;line-height:1.55}
+    .cta{padding:30px;border-radius:26px;background:linear-gradient(110deg,#111a50,#3b36c9 55%,#7c3aed);color:#fff;display:grid;grid-template-columns:1.15fr .85fr;gap:20px;align-items:center;position:relative;overflow:hidden}.cta:before{content:"";position:absolute;width:250px;height:250px;border-radius:50%;background:rgba(255,255,255,.07);right:-60px;top:-110px}.cta h2{font-size:clamp(28px,4vw,44px);line-height:1.08;letter-spacing:-.035em;margin:0 0 9px}.cta p{margin:0;color:#dbe4ff}.cta-actions{position:relative;display:grid;gap:9px}.cta-actions .btn{width:100%}
+    footer{padding:28px 0;background:#fff;border-top:1px solid #e7e9f1}.footer{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:center}.footer-brand p{margin:7px 0 0;color:#7b8596;font-size:11px}.footer-links{display:flex;flex-wrap:wrap;gap:12px;justify-content:flex-end;color:#667085;font-size:11px;font-weight:700}
+    .brand-icon{width:18px;height:18px;display:block;flex:0 0 18px}.mini-btn .brand-icon{width:16px;height:16px;flex-basis:16px}.project-preview{display:none!important}.project-body{height:100%;display:flex;flex-direction:column}.project-actions{margin-top:auto;padding-top:16px}.floating-wa{position:fixed;right:18px;bottom:18px;z-index:45;width:54px;height:54px;border-radius:50%;display:grid;place-items:center;background:#16a34a;color:#fff;font-size:22px;box-shadow:0 14px 34px rgba(22,163,74,.35)}
+    @media(max-width:1000px){nav,.nav-cta{display:none}.menu{display:block}.hero-grid{grid-template-columns:1fr}.hero-card{min-height:470px}.services{grid-template-columns:repeat(2,1fr)}.features{grid-template-columns:repeat(3,1fr)}.projects{grid-template-columns:repeat(2,1fr)}.metrics{grid-template-columns:repeat(5,1fr)}.about-grid{grid-template-columns:1fr}.cta{grid-template-columns:1fr}}
+    @media(max-width:700px){.container{width:min(100% - 22px,var(--max))}.hero{padding-top:42px}.hero h1{font-size:45px}.lead{font-size:16px}.hero-card{min-height:390px}.browser{width:96%;top:48px}.site-preview{min-height:280px;padding:15px}.preview-copy b{font-size:20px}.preview-art{height:140px}.phone{width:103px;height:215px;right:-1px}.exp-badge{width:91px;height:91px;font-size:11px}.premium-badge{font-size:10px;padding:10px 12px}.dev-console{left:2px;bottom:8px;width:76%;font-size:8.5px}.dev-console-body{padding:9px 10px}.signal-row{gap:5px}.signal-chip{font-size:7px;padding:3px 5px}.metrics{grid-template-columns:repeat(2,1fr)}.metric:last-child{grid-column:1/-1}.metric:nth-child(2):after,.metric:nth-child(4):after{display:none}.services,.projects,.pricing,.about-points{grid-template-columns:1fr}.features{grid-template-columns:repeat(2,1fr)}.plan.popular{transform:none}.section{padding:56px 0}.section-head{text-align:left}.cta{padding:23px}.footer{grid-template-columns:1fr}.footer-links{justify-content:flex-start}.hero-actions .btn{width:100%}.feature-banner{width:220px;height:145px}.featured-wrap{margin-top:22px}.quick-package{grid-template-columns:36px 1fr auto;padding:10px}.quick-package .qp-price{font-size:16px}}
+  </style>
+</head>
+<body id="top">
+<header>
+  <div class="container nav">
+    <a class="brand" href="#top" aria-label="Fahim Sikder home">
+      <span class="brand-mark">&lt;/&gt;</span>
+      <span class="brand-copy"><strong>Fahim Sikder</strong><small>Web Developer · AI Engineer</small><span class="brand-extra"><span class="brand-online">online</span><span>build · automate · scale</span></span></span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#pricing">Packages</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-cta">
+      <a class="mini-btn messenger" href="https://m.me/fahimfinlandf" target="_blank" rel="noopener"><img class="brand-icon" src="https://cdn.simpleicons.org/messenger/FFFFFF" alt="" aria-hidden="true"> Messenger</a>
+      <a class="mini-btn primary" href="https://wa.me/8801614946557?text=Hi%20Fahim%2C%20I%20want%20a%20website.%20Please%20share%20details." target="_blank" rel="noopener"><img class="brand-icon" src="https://cdn.simpleicons.org/whatsapp/FFFFFF" alt="" aria-hidden="true"> Free Consultation</a>
+    </div>
+    <button class="menu" id="menuBtn" aria-label="Open menu">☰</button>
+  </div>
+  <div class="mobile-nav" id="mobileNav"><a href="#pricing">Pricing</a><a href="#services">Services</a><a href="#projects">Projects</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <span class="pill"><span class="dot"></span> Premium website service · বাংলাদেশ ও worldwide</span>
+          <h1>Your business deserves a <span class="accent">website that sells.</span></h1>
+          <p class="lead">ই-কমার্স, ল্যান্ডিং পেজ, পোর্টফোলিও, বিজনেস ওয়েবসাইট ও কাস্টম ওয়েব অ্যাপ — আধুনিক UI/UX, মোবাইল রেস্পন্সিভ ডিজাইন, দ্রুত লোডিং এবং conversion-focused development সহ।</p>
+          <div class="featured-wrap" aria-label="Featured website types">
+            <div class="featured-head"><strong>Featured Website Types</strong><span>Auto sliding →</span></div>
+            <div class="featured-viewport">
+              <div class="featured-track">
+
+              <article class="feature-banner banner-ecom"><h3>E-commerce<br>Fashion Store</h3><p>Modern shop, cart & checkout experience</p><span class="mini-arrow">→</span><span class="device"><span class="device-screen ui-fashion" aria-label="FASHION UI preview">
+  <span class="ui-status"><span></span><span></span><span></span></span>
+  <span class="ui-brand">FASHION</span>
+  <span class="ui-visual"></span>
+  <span class="ui-grid"><span></span><span></span><span></span><span></span></span>
+  <span class="ui-cta"></span>
+</span></span></article>
+              <article class="feature-banner banner-electronics"><h3>E-commerce<br>Electronics</h3><p>Product catalog, offers & fast ordering</p><span class="mini-arrow">→</span><span class="device"><span class="device-screen ui-electronics" aria-label="TECH UI preview">
+  <span class="ui-status"><span></span><span></span><span></span></span>
+  <span class="ui-brand">TECH</span>
+  <span class="ui-visual"></span>
+  <span class="ui-grid"><span></span><span></span><span></span><span></span></span>
+  <span class="ui-cta"></span>
+</span></span></article>
+              <article class="feature-banner banner-grocery"><h3>E-commerce<br>Grocery Store</h3><p>Simple products, categories & delivery flow</p><span class="mini-arrow">→</span><span class="device"><span class="device-screen ui-grocery" aria-label="GROCERY UI preview">
+  <span class="ui-status"><span></span><span></span><span></span></span>
+  <span class="ui-brand">GROCERY</span>
+  <span class="ui-visual"></span>
+  <span class="ui-grid"><span></span><span></span><span></span><span></span></span>
+  <span class="ui-cta"></span>
+</span></span></article>
+              <article class="feature-banner banner-loan"><h3>Loan App /<br>Loan Website</h3><p>Easy application & high-conversion layout</p><span class="mini-arrow">→</span><span class="device"><span class="device-screen ui-loan" aria-label="LOAN UI preview">
+  <span class="ui-status"><span></span><span></span><span></span></span>
+  <span class="ui-brand">LOAN</span>
+  <span class="ui-visual"></span>
+  <span class="ui-grid"><span></span><span></span><span></span><span></span></span>
+  <span class="ui-cta"></span>
+</span></span></article>
+              <article class="feature-banner banner-casino"><h3>Casino<br>Website</h3><p>Premium gaming-style interface</p><span class="mini-arrow">→</span><span class="device"><span class="device-screen ui-casino" aria-label="CASINO UI preview">
+  <span class="ui-status"><span></span><span></span><span></span></span>
+  <span class="ui-brand">CASINO</span>
+  <span class="ui-visual"></span>
+  <span class="ui-grid"><span></span><span></span><span></span><span></span></span>
+  <span class="ui-cta"></span>
+</span></span></article>
+
+              <article class="feature-banner banner-ecom"><h3>E-commerce<br>Fashion Store</h3><p>Modern shop, cart & checkout experience</p><span class="mini-arrow">→</span><span class="device"><span class="device-screen ui-fashion" aria-label="FASHION UI preview">
+  <span class="ui-status"><span></span><span></span><span></span></span>
+  <span class="ui-brand">FASHION</span>
+  <span class="ui-visual"></span>
+  <span class="ui-grid"><span></span><span></span><span></span><span></span></span>
+  <span class="ui-cta"></span>
+</span></span></article>
+              <article class="feature-banner banner-electronics"><h3>E-commerce<br>Electronics</h3><p>Product catalog, offers & fast ordering</p><span class="mini-arrow">→</span><span class="device"><span class="device-screen ui-electronics" aria-label="TECH UI preview">
+  <span class="ui-status"><span></span><span></span><span></span></span>
+  <span class="ui-brand">TECH</span>
+  <span class="ui-visual"></span>
+  <span class="ui-grid"><span></span><span></span><span></span><span></span></span>
+  <span class="ui-cta"></span>
+</span></span></article>
+              <article class="feature-banner banner-grocery"><h3>E-commerce<br>Grocery Store</h3><p>Simple products, categories & delivery flow</p><span class="mini-arrow">→</span><span class="device"><span class="device-screen ui-grocery" aria-label="GROCERY UI preview">
+  <span class="ui-status"><span></span><span></span><span></span></span>
+  <span class="ui-brand">GROCERY</span>
+  <span class="ui-visual"></span>
+  <span class="ui-grid"><span></span><span></span><span></span><span></span></span>
+  <span class="ui-cta"></span>
+</span></span></article>
+              <article class="feature-banner banner-loan"><h3>Loan App /<br>Loan Website</h3><p>Easy application & high-conversion layout</p><span class="mini-arrow">→</span><span class="device"><span class="device-screen ui-loan" aria-label="LOAN UI preview">
+  <span class="ui-status"><span></span><span></span><span></span></span>
+  <span class="ui-brand">LOAN</span>
+  <span class="ui-visual"></span>
+  <span class="ui-grid"><span></span><span></span><span></span><span></span></span>
+  <span class="ui-cta"></span>
+</span></span></article>
+              <article class="feature-banner banner-casino"><h3>Casino<br>Website</h3><p>Premium gaming-style interface</p><span class="mini-arrow">→</span><span class="device"><span class="device-screen ui-casino" aria-label="CASINO UI preview">
+  <span class="ui-status"><span></span><span></span><span></span></span>
+  <span class="ui-brand">CASINO</span>
+  <span class="ui-visual"></span>
+  <span class="ui-grid"><span></span><span></span><span></span><span></span></span>
+  <span class="ui-cta"></span>
+</span></span></article>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-sales">
+            <a class="btn whatsapp hero-contact hero-whatsapp" href="https://wa.me/8801614946557?text=Hi%20Fahim%2C%20I%20want%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener" aria-label="Chat with Fahim on WhatsApp">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12.04 2C6.58 2 2.14 6.37 2.14 11.75c0 1.92.57 3.8 1.64 5.39L2 22l5.02-1.63a9.99 9.99 0 0 0 5.02 1.36h.01c5.45 0 9.9-4.37 9.9-9.75C21.95 6.6 17.5 2 12.04 2Zm5.79 13.73c-.25.7-1.47 1.34-2.03 1.42-.52.08-1.18.11-1.9-.12-.44-.14-1-.33-1.72-.64-3.03-1.29-5-4.28-5.15-4.48-.15-.2-1.23-1.61-1.23-3.07s.77-2.18 1.04-2.48c.27-.29.59-.36.79-.36h.57c.18.01.43-.07.67.5.25.59.84 2.04.91 2.19.08.15.13.32.03.52-.1.2-.15.32-.3.5-.15.17-.31.38-.45.51-.15.15-.3.31-.13.61.18.3.79 1.28 1.69 2.07 1.16 1.02 2.14 1.34 2.44 1.49.3.15.48.13.66-.08.18-.2.76-.87.96-1.17.2-.3.4-.25.67-.15.28.1 1.76.82 2.06.97.3.15.5.22.57.34.08.13.08.73-.17 1.43Z"/></svg></span>
+              <span class="contact-copy"><strong>WhatsApp</strong><small>01614946557 · Tap to chat</small></span>
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+
+            <div class="quick-packages" id="pricing">
+              <div class="quick-packages-head"><b>Popular Packages</b><span>Transparent Pricing</span></div>
+              <div class="quick-package-list">
+                <a class="quick-package ecom" href="https://wa.me/8801614946557?text=Hi%20Fahim%2C%20I%20want%20the%20E-commerce%20Website%20package%20for%20BDT%203999." target="_blank" rel="noopener">
+                  <span class="qp-icon">🛒</span><span><strong>E-commerce Website</strong><small>Online store · responsive design</small></span><span class="qp-price">৳3,999</span>
+                </a>
+                <a class="quick-package loan" href="https://wa.me/8801614946557?text=Hi%20Fahim%2C%20I%20want%20the%20Loan%20Website%20or%20Loan%20App%20package%20for%20BDT%2010000." target="_blank" rel="noopener">
+                  <span class="qp-icon">📊</span><span><strong>Loan Website / Loan App</strong><small>Modern UI · application flow</small></span><span class="qp-price">৳10,000</span>
+                </a>
+                <a class="quick-package casino" href="https://wa.me/8801614946557?text=Hi%20Fahim%2C%20I%20want%20the%20Casino%20Website%20package%20for%20BDT%206000." target="_blank" rel="noopener">
+                  <span class="qp-icon">🎰</span><span><strong>Casino Website</strong><small>Premium gaming-style website</small></span><span class="qp-price">৳6,000</span>
+                </a>
+              </div>
+            </div>
+
+            <a class="btn messenger hero-contact hero-messenger" href="https://m.me/fahimfinlandf" target="_blank" rel="noopener" aria-label="Message Fahim on Messenger">
+              <span class="contact-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.15 2 11.27c0 2.92 1.46 5.52 3.74 7.22V22l3.42-1.88c.9.25 1.85.39 2.84.39 5.52 0 10-4.15 10-9.24C22 6.15 17.52 2 12 2Zm1 12.48-2.55-2.72-4.98 2.72 5.48-5.82 2.61 2.72 4.92-2.72L13 14.48Z"/></svg></span>
+              <span class="contact-copy"><strong>Messenger</strong><small>m.me/fahimfinlandf · Tap to message</small></span>
+              <span class="contact-arrow" aria-hidden="true">→</span>
+            </a>
+            <div class="hero-trustline">⚡ Fast response <span>•</span> Free consultation <span>•</span> Clear pricing</div>
+          </div>
+
+          <div class="proof">
+            <div class="avatars"><span class="avatar">UI</span><span class="avatar">WEB</span><span class="avatar">AI</span><span class="avatar">SEO</span></div>
+            <span><b>5+ years</b> web experience</span><span class="stars">★★★★★</span><span>Premium service · clear communication</span>
+          </div>
+        </div>
+
+        <div class="hero-card" aria-hidden="true">
+          <div class="glow"></div>
+          <div class="dev-console">
+            <div class="dev-console-top"><i></i><i></i><i></i><b>LIVE BUILD</b></div>
+            <div class="dev-console-body">
+              <div class="dev-line"><span>&gt;</span><span id="codeTicker">npm run build</span><span class="dev-cursor"></span></div>
+              <div class="dev-line dev-dim"><span>✓</span><span>Responsive UI ready</span></div>
+              <div class="dev-line dev-dim"><span>✓</span><span>SEO & performance optimized</span></div>
+              <div class="signal-row"><span class="signal-chip">SITE <b>ONLINE</b></span><span class="signal-chip">SPEED <b>FAST</b></span><span class="signal-chip">MOBILE <b>READY</b></span></div>
+            </div>
+          </div>
+          <div class="exp-badge">5+ YEARS<br>EXPERIENCE</div>
+          <div class="premium-badge">PREMIUM SERVICE<small>Modern · Fast · Responsive</small></div>
+          <div class="browser">
+            <div class="browser-top"><i></i><i></i><i></i><span class="url">yourbrand.com</span></div>
+            <div class="site-preview">
+              <div class="preview-nav"><span class="preview-logo">YOUR BRAND</span><span>Home · Shop · About · Contact</span></div>
+              <div class="preview-hero">
+                <div class="preview-copy"><b>Build trust.<br>Sell more.</b><p>A clean, fast and conversion-focused website built for your business.</p><span class="preview-button">Get Started →</span></div>
+                <div class="preview-art"></div>
+              </div>
+              <div class="preview-products"><span></span><span></span><span></span></div>
+            </div>
+          </div>
+          <div class="phone"><div class="phone-screen"><b>Beautiful on every screen.</b><p>Mobile-first experience with fast performance.</p><div class="phone-art"></div></div></div>
+        </div>
+      </div>
+
+      <div class="metrics-wrap">
+        <div class="metrics">
+          <div class="metric"><b>5+</b><span>Years Experience</span></div>
+          <div class="metric"><b>200+</b><span>Completed Orders</span></div>
+          <div class="metric"><b>100%</b><span>Responsive Design</span></div>
+          <div class="metric"><b>Fast</b><span>Delivery Focus</span></div>
+          <div class="metric"><b>Premium</b><span>Support & Quality</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+  <section class="section white" id="services">
+    <div class="container">
+      <div class="section-head"><span class="eyebrow">Services</span><h2>Everything you need to launch online.</h2><p>ছোট ব্যবসা থেকে growing brand — প্রয়োজন অনুযায়ী simple landing page থেকে complete e-commerce বা custom web system পর্যন্ত।</p></div>
+      <div class="services">
+        <article class="service"><div class="service-icon">🛒</div><h3>E-commerce Website</h3><p>Products, cart, checkout, admin workflow এবং mobile-first shopping experience.</p><div class="price">Starting from <strong>৳3,999</strong></div></article>
+        <article class="service"><div class="service-icon">🚀</div><h3>Landing Page</h3><p>Facebook ads, service campaigns ও product launches-এর জন্য conversion-focused page.</p><div class="price">Starting from <strong>৳1,500</strong></div></article>
+        <article class="service"><div class="service-icon">◫</div><h3>Portfolio Website</h3><p>Students, freelancers, developers ও professionals-এর জন্য premium personal portfolio.</p><div class="price">Starting from <strong>৳2,000</strong></div></article>
+        <article class="service"><div class="service-icon">🏢</div><h3>Business Website</h3><p>Company profile, services, lead generation, contact flows ও trustworthy brand presence.</p><div class="price">Custom quote</div></article>
+        <article class="service"><div class="service-icon">🎮</div><h3>Casino Website</h3><p>Modern gaming-style frontend, responsive UI and project-specific website structure.</p><div class="price">Starting from <strong>৳6,000</strong></div></article>
+        <article class="service"><div class="service-icon">💳</div><h3>Loan Website / Loan App</h3><p>Professional loan service presentation, application flow and admin-ready finance UI.</p><div class="price">Starting from <strong>৳10,000</strong></div></article>
+        <article class="service"><div class="service-icon">⚙</div><h3>Custom Web App</h3><p>Dashboards, authentication, Supabase, APIs, admin panels and workflow automation.</p><div class="price">Based on scope</div></article>
+        <article class="service"><div class="service-icon">✦</div><h3>AI & Automation</h3><p>AI chat experiences, workflow automation and practical integrations for modern products.</p><div class="price">Based on scope</div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-head"><span class="eyebrow">Why work with me</span><h2>Premium execution without agency overhead.</h2><p>Design থেকে deployment পর্যন্ত এক জায়গায় — practical, fast এবং business-focused delivery.</p></div>
+      <div class="features">
+        <div class="feature"><i>✦</i><b>Modern UI/UX</b><span>Premium visual system</span></div>
+        <div class="feature"><i>▣</i><b>Mobile Responsive</b><span>Every screen optimized</span></div>
+        <div class="feature"><i>⚡</i><b>Fast Loading</b><span>Performance focused</span></div>
+        <div class="feature"><i>↗</i><b>SEO Friendly</b><span>Clean technical base</span></div>
+        <div class="feature"><i>⚙</i><b>Admin Panel</b><span>Easy management</span></div>
+        <div class="feature"><i>◉</i><b>Free Guidance</b><span>Launch support</span></div>
+        <div class="feature"><i>✓</i><b>Secure Setup</b><span>Safer deployment</span></div>
+        <div class="feature"><i>◆</i><b>Custom Design</b><span>Built for your brand</span></div>
+        <div class="feature"><i>ƒ</i><b>Pixel Ready</b><span>Ads conversion setup</span></div>
+        <div class="feature"><i>☁</i><b>Hosting Guidance</b><span>Cloudflare & domains</span></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section white" id="projects">
+    <div class="container">
+      <div class="section-head"><span class="eyebrow">Selected work</span><h2>Live projects you can open and review.</h2><p>প্রতিটি card থেকে সরাসরি live website open করে কাজ দেখতে পারবেন। Fake screenshot বা placeholder image ব্যবহার করা হয়নি।</p></div>
+      <div class="projects">
+        <article class="project"><div class="project-body"><div class="project-meta"><span class="status-live">Live</span><small>AI Platform</small></div><h3>HeyProma</h3><p>AI companion platform with auth, analytics, server-side integrations and payment/webhook flows.</p><div class="stack"><span>Next.js</span><span>Supabase</span><span>Cloudflare</span><span>AI</span></div><div class="project-actions"><a class="project-link" href="https://heyproma.com/" target="_blank" rel="noopener">Visit project ↗</a></div></div></article>
+        <article class="project"><div class="project-body"><div class="project-meta"><span class="status-live">Live</span><small>Education</small></div><h3>Exam Center BD</h3><p>Online exam platform with authentication, question systems, admin workflows and performance data.</p><div class="stack"><span>Supabase</span><span>RLS</span><span>Cloudflare</span><span>Admin</span></div><div class="project-actions"><a class="project-link" href="https://examcenterbd.com/" target="_blank" rel="noopener">Visit project ↗</a></div></div></article>
+        <article class="project"><div class="project-body"><div class="project-meta"><span class="status-live">System</span><small>Micro-jobs</small></div><h3>Taskora</h3><p>Micro-job and social platform with wallet ledger, proof workflows, referrals, moderation and admin controls.</p><div class="stack"><span>React</span><span>TypeScript</span><span>Supabase</span><span>RLS</span></div><div class="project-actions"><span class="project-link disabled">System project</span></div></div></article>
+        <article class="project"><div class="project-body"><div class="project-meta"><span class="status-live">Live</span><small>Social Platform</small></div><h3>Neferiq</h3><p>Letter-first social platform with profiles, authentication, moderation and cloud infrastructure.</p><div class="stack"><span>Supabase</span><span>PostgreSQL</span><span>Cloudflare</span></div><div class="project-actions"><a class="project-link" href="https://neferiq.com/" target="_blank" rel="noopener">Visit project ↗</a></div></div></article>
+        <article class="project"><div class="project-body"><div class="project-meta"><span class="status-live">Live</span><small>Entertainment</small></div><h3>CinemaMaddy</h3><p>Responsive movie discovery experience focused on polished presentation, performance and usability.</p><div class="stack"><span>JavaScript</span><span>Responsive</span><span>Production</span></div><div class="project-actions"><a class="project-link" href="https://cinemamaddy.site/" target="_blank" rel="noopener">Visit project ↗</a></div></div></article>
+        <article class="project"><div class="project-body"><div class="project-meta"><span class="status-live">Live</span><small>Client Website</small></div><h3>Oronno Nogor</h3><p>Production client website built for clear information architecture, responsive browsing and reliable deployment.</p><div class="stack"><span>Responsive</span><span>Performance</span><span>Deployment</span></div><div class="project-actions"><a class="project-link" href="https://oronnonogor.com/" target="_blank" rel="noopener">Visit project ↗</a></div></div></article>
+        <article class="project"><div class="project-body"><div class="project-meta"><span class="status-live">New</span><small>E-commerce</small></div><h3>Nobin Mart</h3><p>Modern Bangladesh-focused e-commerce experience with product browsing, account flows and admin-ready commerce structure.</p><div class="stack"><span>E-commerce</span><span>Supabase</span><span>Cloudflare</span><span>Responsive</span></div><div class="project-actions"><a class="project-link" href="https://nobin-mart.fahimsikder59595.workers.dev/" target="_blank" rel="noopener">Visit project ↗</a></div></div></article>
+      </div>
+    </div>
+  </section>
+
+  
+
+  <section class="section white" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-card"><span class="pill" style="background:rgba(255,255,255,.12);border-color:rgba(255,255,255,.22);color:#fff">Fahim Sikder</span><h3>Web developer focused on business outcomes.</h3><p>I build websites, web apps and AI-enabled experiences with a practical mix of design, performance, cloud deployment and automation.</p><div class="hero-actions"><a class="btn" href="https://github.com/Fahimxbd" target="_blank" rel="noopener">View GitHub ↗</a></div></div>
+        <div class="about-points">
+          <div class="about-point"><b>5+ years web experience</b><span>WordPress, custom frontend, SEO, speed optimization and production delivery.</span></div>
+          <div class="about-point"><b>200+ completed orders</b><span>Hands-on experience delivering practical website work for different client needs.</span></div>
+          <div class="about-point"><b>Modern stack</b><span>JavaScript, React, TypeScript, Supabase, Cloudflare, Python and modern web tooling.</span></div>
+          <div class="about-point"><b>End-to-end help</b><span>Planning, UI/UX, development, deployment, domain setup and post-launch guidance.</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="cta">
+        <div><span class="eyebrow" style="color:#c4b5fd">Start your project</span><h2>আজই আপনার business-এর জন্য premium website শুরু করুন.</h2><p>আপনার requirement পাঠান। আমি scope, suitable approach এবং estimated cost নিয়ে reply করব।</p></div>
+        <div class="cta-actions">
+          <a class="btn whatsapp" href="https://wa.me/8801614946557?text=Hi%20Fahim%2C%20I%20want%20to%20discuss%20a%20website%20project." target="_blank" rel="noopener"><img class="brand-icon" src="https://cdn.simpleicons.org/whatsapp/FFFFFF" alt="" aria-hidden="true"> WhatsApp · 01614946557</a>
+          <a class="btn messenger" href="https://m.me/fahimfinlandf" target="_blank" rel="noopener"><img class="brand-icon" src="https://cdn.simpleicons.org/messenger/FFFFFF" alt="" aria-hidden="true"> Message on Facebook</a>
+          <a class="btn" href="mailto:fahim.sikder.web@gmail.com?subject=Website%20Project%20Inquiry">Email project details</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container footer">
+    <div class="footer-brand"><strong>Fahim Sikder</strong><p>Premium web development · AI engineering · digital solutions</p></div>
+    <div class="footer-links"><a href="#services">Services</a><a href="#projects">Projects</a><a href="#pricing">Pricing</a><a href="https://github.com/Fahimxbd" target="_blank" rel="noopener">GitHub</a><a href="mailto:fahim.sikder.web@gmail.com">Email</a><span>© 2026</span></div>
+  </div>
+</footer>
+<a class="floating-wa" href="https://wa.me/8801614946557?text=Hi%20Fahim%2C%20I%20want%20a%20website." target="_blank" rel="noopener" aria-label="Chat on WhatsApp"><img class="brand-icon" src="https://cdn.simpleicons.org/whatsapp/FFFFFF" alt="" aria-hidden="true"></a>
+<script>
+  const menuBtn=document.getElementById('menuBtn');
+  const mobileNav=document.getElementById('mobileNav');
+  menuBtn.addEventListener('click',()=>mobileNav.classList.toggle('open'));
+  mobileNav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>mobileNav.classList.remove('open')));
+  const ticker=document.getElementById('codeTicker');
+  if(ticker){
+    const commands=['npm run build','optimizing website...','checking mobile layout...','deploying to cloud...','site ready ✓'];
+    let i=0;
+    setInterval(()=>{i=(i+1)%commands.length;ticker.textContent=commands[i]},1800);
+  }
+</script>
+</body>
+</html>
