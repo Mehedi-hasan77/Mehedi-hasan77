@@ -93,7 +93,7 @@ export function validateCase(raw) {
   const requester = cleanText(raw.requester, 100);
   const details = cleanText(raw.details, 3000, true);
   if (title.length < 4) throw new ValidationError('Case title must contain at least 4 characters.');
-  if (requester.length < 2) throw new ValidationError('Enter the requester's full name.');
+  if (requester.length < 2) throw new ValidationError("Enter the requester's full name.");
   if (details.length < 20) throw new ValidationError('Explain the facts in at least 20 characters.');
   const category = cleanText(raw.category, 80);
   if (!category) throw new ValidationError('Select an issue category.');
