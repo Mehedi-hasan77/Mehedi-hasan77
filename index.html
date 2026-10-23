@@ -263,6 +263,29 @@ a{color:inherit;text-decoration:none}button{font:inherit}button,a{-webkit-tap-hi
 /* New ORM case section */
 .orm-cases{padding-top:100px;padding-bottom:95px;border-top:1px solid #ddd}.orm-intro{display:grid;grid-template-columns:1.2fr .8fr;gap:42px;align-items:end}.orm-intro p,.orm-footer p{line-height:1.8;color:#555b65;font-size:16px}.orm-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin:44px 0 58px}.orm-steps span{border-top:1px solid #b8bbc1;padding-top:16px;font-size:13px;color:#42454c}.orm-heading{font-size:clamp(23px,2.8vw,37px);letter-spacing:-.045em;margin:0 0 10px}.orm-note{font-size:13px;line-height:1.7;color:#666970;max-width:900px;margin:0 0 24px}.orm-ref-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.orm-ref{display:grid;grid-template-columns:35px 1fr 26px;grid-template-areas:"n name arr" "n place arr" "n service arr";align-items:center;gap:6px 13px;padding:21px;border-radius:12px;background:#fff;border:1px solid #e0e2e6;text-decoration:none;color:#222;transition:transform .2s,border-color .2s;min-width:0}.orm-ref:hover,.orm-ref:focus-visible{transform:translateY(-2px);border-color:#455ce9}.orm-n{grid-area:n;font-size:12px;color:#8b9098;align-self:start}.orm-name{grid-area:name;font-size:16px;font-weight:700;line-height:1.35;overflow-wrap:anywhere}.orm-place{grid-area:place;font-size:12px;color:#767982}.orm-service{grid-area:service;font-size:12px;line-height:1.6;color:#455ce9;margin-top:5px}.orm-arrow{grid-area:arr;font-size:23px}.orm-footer{display:flex;gap:25px;justify-content:space-between;align-items:center;flex-wrap:wrap;margin-top:30px}.orm-footer p{max-width:650px}.profile-pending{opacity:.66;cursor:default}
 @media(max-width:780px){.orm-intro{grid-template-columns:1fr}.orm-steps{grid-template-columns:repeat(2,1fr)}}@media(max-width:600px){.orm-ref-grid{grid-template-columns:1fr}.orm-cases{padding-top:70px;padding-bottom:70px}.orm-steps{margin:32px 0 45px}}
+
+/* Keep contact actions inside the viewport, with consistent touch targets. */
+.contact-row{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center}
+.contact-title{min-width:0;font-size:clamp(54px,8vw,130px);overflow-wrap:normal}
+.contact-cta{max-width:100%;text-align:center}
+.contact-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;max-width:900px}
+.contact-links a{display:flex!important;justify-content:center;text-align:center;min-width:0;min-height:56px;padding:16px 20px;overflow-wrap:anywhere;line-height:1.5}
+.contact-links a:focus-visible,.contact-cta:focus-visible{outline:3px solid #aab5ff;outline-offset:5px}
+.footer-bottom{padding-bottom:72px}
+@media(max-width:900px){
+ .contact-row{grid-template-columns:minmax(0,1fr);gap:26px;justify-items:start}
+ .contact-title{font-size:clamp(48px,10vw,88px);margin:0}
+ .contact-cta{width:auto;height:auto;min-height:56px;border-radius:999px;padding:18px 30px}
+}
+@media(max-width:650px){
+ .contact-links{grid-template-columns:minmax(0,1fr);gap:12px;padding:32px 0 42px}
+ .contact-links a{width:100%;font-size:14px}
+ .contact-title{font-size:clamp(46px,11vw,70px);letter-spacing:-.065em}
+ .contact-row{padding-bottom:32px}
+ .contact-cta{width:100%;font-size:16px}
+ .footer-bottom{gap:20px;line-height:1.8}
+}
+
 </style>
 </head>
 <body>
@@ -289,8 +312,8 @@ a{color:inherit;text-decoration:none}button{font:inherit}button,a{-webkit-tap-hi
   <div class="menu-bottom"><a class="social-label" href="https://github.com/Mehedi-hasan77" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
 <a class="social-label" href="https://wa.me/8801403819143?text=Hello%20Mehedi%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp · +880 1403-819143 ↗</a>
 <a class="social-label" href="cv/">CV / Resume ↗</a>
-<span class="social-label profile-pending" title="Profile URL not supplied">LinkedIn · URL pending</span>
-<span class="social-label profile-pending" title="Profile URL not supplied">Facebook · URL pending</span></div>
+
+<a class="social-label" href="https://www.facebook.com/share/19ZJM9dvwA/" target="_blank" rel="noopener noreferrer" aria-label="Visit Mehedi Hasan on Facebook">Facebook ↗</a></div>
 </nav>
 <main id="content">
 <section class="hero" id="top" aria-labelledby="heroTitle">
@@ -380,8 +403,8 @@ a{color:inherit;text-decoration:none}button{font:inherit}button,a{-webkit-tap-hi
   <div class="contact-links"><a class="social-label" href="https://github.com/Mehedi-hasan77" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
 <a class="social-label" href="https://wa.me/8801403819143?text=Hello%20Mehedi%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp · +880 1403-819143 ↗</a>
 <a class="social-label" href="cv/">CV / Resume ↗</a>
-<span class="social-label profile-pending" title="Profile URL not supplied">LinkedIn · URL pending</span>
-<span class="social-label profile-pending" title="Profile URL not supplied">Facebook · URL pending</span><a class="social-label" href="tel:+8801403819143">Call +880 1403-819143 ↗</a></div>
+
+<a class="social-label" href="https://www.facebook.com/share/19ZJM9dvwA/" target="_blank" rel="noopener noreferrer" aria-label="Visit Mehedi Hasan on Facebook">Facebook ↗</a><a class="social-label" href="tel:+8801403819143">Call +880 1403-819143 ↗</a></div>
   <div class="footer-bottom"><span>© 2026 Mehedi Hasan. Web · AI · ORM.</span><span><a href="https://github.com/Mehedi-hasan77" target="_blank" rel="noopener noreferrer">GitHub ↗</a> &nbsp; · &nbsp; <a href="https://wa.me/8801403819143?text=Hello%20Mehedi%2C%20I%20would%20like%20to%20discuss%20a%20project." target="_blank" rel="noopener noreferrer">WhatsApp ↗</a> &nbsp; · &nbsp; <a href="#top">Back to top ↑</a></span></div>
 </section>
 </main>
